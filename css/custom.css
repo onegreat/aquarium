@@ -1,0 +1,20 @@
+.btn {
+    padding: 10px 50px 12px 50px;
+    background: linear-gradient(266.17deg, #258BE9 0%, #51A7F7 100%);
+    border-radius: 57px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+}
+
+.btn-hero {
+    position: absolute;
+    top: 68%;
+    right: 18%;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto 35px auto;
+}
