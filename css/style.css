@@ -254,7 +254,7 @@ ul {
     margin: 20px 20px 13px 0;
 }
 
-.element-one-image > img {
+.element-one-image>img {
     border-radius: 10px;
     border: none;
 }
@@ -320,7 +320,7 @@ ul {
     right: 0;
     bottom: 0px;
     left: 70%;
-    z-index: 5;
+    z-index: -5;
     background: url(/img/form-fish2.png);
     background-repeat: no-repeat;
 }
@@ -332,7 +332,7 @@ ul {
     right: 0;
     bottom: 0px;
     left: -3%;
-    z-index: 5;
+    z-index: -5;
     background: url(/img/form-fish1.png);
     background-repeat: no-repeat;
 }
