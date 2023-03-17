@@ -321,7 +321,7 @@ ul {
     bottom: 0px;
     left: 70%;
     z-index: 5;
-    background: url(../img/form-fish2.png);
+    background: url(/img/form-fish2.png);
     background-repeat: no-repeat;
 }
 
@@ -333,7 +333,7 @@ ul {
     bottom: 0px;
     left: -3%;
     z-index: 5;
-    background: url(../img/form-fish1.png);
+    background: url(/img/form-fish1.png);
     background-repeat: no-repeat;
 }
 
