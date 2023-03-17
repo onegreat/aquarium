@@ -180,7 +180,7 @@ ul {
     right: 0;
     bottom: 0px;
     left: 70%;
-    z-index: 5;
+    z-index: -5;
     background: url(/img/form-fish2.png);
     background-repeat: no-repeat;
 }
@@ -192,7 +192,7 @@ ul {
     right: 0;
     bottom: 0px;
     left: -3%;
-    z-index: 5;
+    z-index: -5;
     background: url(/img/form-fish1.png);
     background-repeat: no-repeat;
 }
