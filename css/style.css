@@ -256,7 +256,7 @@ ul {
     margin: 20px 20px 13px 0;
 }
 
-.element-one-image > img {
+.element-one-image>img {
     border-radius: 10px;
     border: none;
 }
