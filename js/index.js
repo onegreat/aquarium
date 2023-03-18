@@ -291,35 +291,68 @@ function rangeSliderFigured() {
     }
 }
 
+// function rangeSliderTerrarium() {
+//     let range = document.getElementById("terrariumRange");
+//     let price = document.getElementById("terrariumPriceRange");
+//     let krishka = document.getElementById("terrariumLid");
+//     let labelForLid = document.getElementById("forTerrariumLid");
+
+//     if (range.value == 1) {
+//         krishka.disabled = "disabled";
+//         krishka.checked = "checked";
+//         labelForLid.innerHTML = `C крышкой`;
+//         price.innerHTML = 10 + ` литров ` + 432 + ` рублей`;
+//     } else if (range.value == 2) {
+//         price.innerHTML = 15 + ` литров ` + 486 + ` рублей`;
+//     } else if (range.value == 3) {
+//         price.innerHTML = 20 + ` литров ` + 540 + ` рублей`;
+//     } else if (range.value == 4) {
+//         price.innerHTML = 25 + ` литров ` + 608 + ` рублей`;
+//     } else if (range.value == 5) {
+//         price.innerHTML = 30 + ` литров ` + 743 + ` рублей`;
+//     } else if (range.value == 6) {
+//         price.innerHTML = 35 + ` литров ` + 837 + ` рублей`;
+//     } else if (range.value == 7) {
+//         price.innerHTML = 40 + ` литров ` + 960 + ` рублей`;
+//     } else if (range.value == 8) {
+//         price.innerHTML = 45 + ` литров ` + 1053 + ` рублей`;
+//     } else if (range.value == 9) {
+//         price.innerHTML = 50 + ` литров ` + 1161 + ` рублей`;
+//     } else if (range.value == 10) {
+//         price.innerHTML = 60 + ` литров ` + 1377 + ` рублей`;
+//     }
+// }
+
 function rangeSliderTerrarium() {
     let range = document.getElementById("terrariumRange");
     let price = document.getElementById("terrariumPriceRange");
     let krishka = document.getElementById("terrariumLid");
     let labelForLid = document.getElementById("forTerrariumLid");
 
+    //  Расчет 10 литров не рабортает
     if (range.value == 1) {
         krishka.disabled = "disabled";
         krishka.checked = "checked";
-        labelForLid.innerHTML = `C крышкой`;
-        price.innerHTML = 10 + ` литров ` + 432 + ` рублей`;
+        // labelForLid.innerHTML = `C крышкой`;
+        price.innerHTML = 10 + ` литров `;
     } else if (range.value == 2) {
-        price.innerHTML = 15 + ` литров ` + 486 + ` рублей`;
+        price.innerHTML = 15 + ` литров `;
     } else if (range.value == 3) {
-        price.innerHTML = 20 + ` литров ` + 540 + ` рублей`;
+        price.innerHTML = 20 + ` литров `;
     } else if (range.value == 4) {
-        price.innerHTML = 25 + ` литров ` + 608 + ` рублей`;
+        price.innerHTML = 25 + ` литров `;
     } else if (range.value == 5) {
-        price.innerHTML = 30 + ` литров ` + 743 + ` рублей`;
+        price.innerHTML = 30 + ` литров `;
     } else if (range.value == 6) {
-        price.innerHTML = 35 + ` литров ` + 837 + ` рублей`;
+        price.innerHTML = 35 + ` литров `;
     } else if (range.value == 7) {
-        price.innerHTML = 40 + ` литров ` + 960 + ` рублей`;
+        price.innerHTML = 40 + ` литров `;
     } else if (range.value == 8) {
-        price.innerHTML = 45 + ` литров ` + 1053 + ` рублей`;
+        price.innerHTML = 45 + ` литров `;
     } else if (range.value == 9) {
-        price.innerHTML = 50 + ` литров ` + 1161 + ` рублей`;
+        price.innerHTML = 50 + ` литров `;
     } else if (range.value == 10) {
-        price.innerHTML = 60 + ` литров ` + 1377 + ` рублей`;
+        price.innerHTML = 60 + ` литров `;
     }
 }
 

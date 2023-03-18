@@ -342,14 +342,6 @@ ul {
     line-height: 54px;
 }
 
-.modal-content {
-    width: 1200px !important;
-}
-
-.modal-dialog {
-    margin-left: 343px !important;
-}
-
 /* section form */
 
 .section-form {
@@ -417,4 +409,139 @@ ul {
 
 .modal-dialog {
     max-width: 1116px;
+}
+
+.modal-form-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000
+}
+
+.modal-form-discription {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.modal-label-name {
+    display: block;
+}
+
+.modal-label-tel {
+    display: block;
+}
+
+.modal-input {
+    width: 500px;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 14px 15px;
+    border: 1px solid #040404;
+    border-radius: 10px;
+}
+
+.form-container-image-png {
+    display: block;
+    margin: auto;
+}
+
+.modal-container {
+    padding: 2.5%;
+}
+
+.terrariumPriceRange {
+    display: flex;
+}
+
+.modal-litres {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000
+}
+
+.terrarium-price {
+    font-family: 'Open Sans';
+    margin-top: 26px;
+    margin-bottom: 3px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.question-modal {
+    display: block;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.form_radio_group {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.form_radio_group-item {
+    display: inline-block;
+    float: left;
+}
+
+.form_radio_group input[type=radio] {
+    display: none;
+}
+
+.form_radio_group label {
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    border-right: none;
+    user-select: none;
+    background: rgba(81, 167, 246, 0.2);
+}
+
+.first-label {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.form_radio_group .form_radio_group-item:last-child label {
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 15px;
+}
+
+/* Checked */
+.form_radio_group input[type=radio]:checked+label {
+    background: linear-gradient(266.17deg, #258BE9 0%, #51A7F7 100%);
+    color: white;
+}
+
+/* Hover */
+.form_radio_group label:hover {
+    color: black
+}
+
+/* Disabled */
+
+.form_radio_group input[type=radio]:disabled {
+    background: black;
+    color: black;
 }

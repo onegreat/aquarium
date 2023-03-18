@@ -118,30 +118,38 @@
                                     <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="rectangular">Рассчитать цену</button>
                                     <!-- /** modal one **/ -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="container">
                                         <div class="modal-dialog">
                                           <div class="modal-content">
                                             <div class="modal-header"><div class="catalog-modal-title"></div></div>
                                             <div class="modal-body"></div>
                                             <div class="modal-footer">
-                                                <form class="modal-form" action="">
-                                                    <div class="form-container col-md-12">
-                                                      <div class="form-container-content col-md-6">
-                                                        <label for="modal-form__name">
-                                                            <input type="text" name="name" placeholder="Ваше имя" id="name" required>
-                                                        </label>
-                                                        <input type="text" name="name" placeholder="Ваше имя" id="name" required>
-                                                    </label>
-                                                      </div>  
+                                                <div class="form-container col-md-12 d-flex">
+                                                    <form class="col-md-6">
+                                                        <div class="container">
+                                                            <h2 class="modal-form-name">Сделать заказ</h2>
+                                                            <p class="modal-form-discription">
+                                                                Мы запомнили параметры аквариума и передадим 
+их менеджеру. Укажите ваши контактные данные для обратной связи. 
+                                                            </p>
+                                                            <label for="modal-label-name" class="modal-label-name">
+                                                                <input class="modal-input" type="text" placeholder="Ваше имя">
+                                                            </label>
+                                                            <label for="modal-label-tel" class="modal-label-tel">
+                                                                <input class="modal-input" type="text" id="phone" name="phone" placeholder="Контакты для связи (номер телефона или эл. почта)" placeholder="Ваше имя" required>
+                                                            </label>
+                                                            <label for="">
+                                                                <button class="btn btn-modal-buy">Заказать</button>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                    <div class="form-container-image col-md-6">
+                                                        <img src="./img/form-fish2.png" alt="Красивая рыба" class="form-container-image-png">
                                                     </div>
-                                                    
-                                                </form>
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                              
+                                                </div>
+                                                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button> -->
                                             </div>
                                           </div>
                                         </div>
-                                      </div>
                                     </div>
                                     <!-- /** end modal one **/ -->
                                 </div>

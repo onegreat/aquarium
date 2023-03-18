@@ -20,5 +20,13 @@
 }
 
 .modal-dialog {
-    max-width: auto;
+    max-width: 1200px;
+}
+
+.btn-modal-buy {
+    margin-top: 40px;
+}
+
+.modal-body {
+    padding: 0;
 }

@@ -4,7 +4,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   var button = event.relatedTarget
   // Извлечь информацию из атрибутов data-bs- *
   var recipient = button.getAttribute('data-bs-whatever')
-  
+
   // При необходимости вы можете инициировать запрос AJAX здесь
   // а затем выполните обновление в обратном вызове.
   //
@@ -13,17 +13,29 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
   var modalTitle = exampleModal.querySelector('.catalog-modal-title')
   var modalBody = exampleModal.querySelector('.modal-body')
   console.log(modalTitle);
-  if(recipient == 'terrarium') {
+  if (recipient == 'terrarium') {
     modalTitle.innerText = 'Террариумы';
-    modalBody.innerHTML = `<p>Выберите литраж</p>
-    <div class="slidecontainer">
-      <input type="range" min="1" max="10" value="1" class="slider" id="terrariumRange" oninput="rangeSliderTerrarium()">
-      <input type="checkbox" id="terrariumLid" onclick="rangeSliderTerrarium()">
-      <label id="forTerrariumLid" for="terrariumLid"></label>
-      <div id="terrariumPriceRange">
-      <div><img src="./img/elem2.png"></div>
+    modalBody.innerHTML = `<div class="modal-container col-md-12 d-flex">
+    <div class="slidecontainer col-md-6">
+    <p class="modal-litres">Выберите литраж</p>
+    <div id="terrariumPriceRange" class="terrarium-price"></div>
+      <input type="range" min="1" max="10" value="1" class="slider col-md-10" id="terrariumRange" oninput="rangeSliderTerrarium()">
+        <div class="form_radio_group">
+        <span class="question-modal">С крышкой?</span>
+          <div class="form_radio_group-item">
+          <input id="terrariumLid" type="radio" name="radio" value="1" checked>
+          <label for="radio-1" class="first-label">Да</label>
+        </div>
+        <div class="form_radio_group-item">
+          <input id="radio-2" type="radio" name="radio" value="2">
+          <label for="radio-2">Нет</label>
+        </div>
+      </div>
+      // <input type="radio" id="terrariumLid" onclick="rangeSliderTerrarium()">
+    </div>
+    <div class="col-md-6"><img src="./img/elem2.png"></div>
     </div>`;
-  } else if(recipient == 'rectangular') {
+  } else if (recipient == 'rectangular') {
     modalTitle.innerText = 'Прямоугольные аквариумы';
     modalBody.innerHTML = `<p>Выберите литраж</p>
     <div class="slidecontainer">
