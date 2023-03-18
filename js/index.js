@@ -1,83 +1,3 @@
-// function viewDiv(){
-//     let calc = document.getElementById("calculator");
-//     if (calc.style.display === "none") {
-//         calc.style.display = "block";
-//     } else if(calc.style.display === "block") {
-//         calc.style.display = "none";
-//     }
-// };
-
-// function run() {
-//     let calcSelect = document.getElementById("calcSelect");
-//     let text = calcSelect.options[calcSelect.selectedIndex].text;
-//     let value = calcSelect.value;
-
-//     if(text == "Прямоугольные 6мм") {
-//         document.getElementById("6mm").style.display = "block";
-//         document.getElementById("4mm").style.display = "none";
-//         document.getElementById("terra").style.display = "none";
-//     } else if(text == "Прямоугольные 4мм") {
-//         document.getElementById("4mm").style.display = "block";
-//         document.getElementById("6mm").style.display = "none";
-//         document.getElementById("terra").style.display = "none";
-//     } else if(text == "Террариумы") {
-//         document.getElementById("terra").style.display = "block";
-//         document.getElementById("6mm").style.display = "none";
-//         document.getElementById("4mm").style.display = "none";
-//     } else {
-//         document.getElementById("terra").style.display = "none";
-//         document.getElementById("6mm").style.display = "none";
-//         document.getElementById("4mm").style.display = "none";
-//         document.getElementById("price").innerHTML = "";
-//     }
-// }
-
-// function priceFor6mm() {
-//     let typeName = document.getElementById("rectangular6mm").value,
-//     krishka = document.getElementById("lid"),
-//     priceWithLid = parseInt(typeName) + 2500,
-//     price = document.getElementById("price");
-
-//     if(krishka.checked && typeName !== "") {
-//         price.innerHTML = priceWithLid + " ₽";
-//     } else if(krishka.checked && typeName == "") {
-//         price.innerHTML = "";
-//     } else {
-//         price.innerHTML = typeName + " ₽";
-//     }
-// }
-
-// function priceFor4mm() {
-//     let typeName = document.getElementById("rectangular4mm").value,
-//     krishka = document.getElementById("lid"),
-//     priceWithLid = parseInt(typeName) + 1,
-//     price = document.getElementById("price");
-
-//     if(krishka.checked && typeName !== "") {
-//         price.innerHTML = priceWithLid + " ₽";
-//     } else if(krishka.checked && typeName == "") {
-//         price.innerHTML = "";
-//     } else {
-//         price.innerHTML = typeName + " ₽";
-//     }
-// }
-
-// function priceForTerrarium() {
-//     let typeName = document.getElementById("terrarium").value,
-//     krishka = document.getElementById("lid"),
-//     priceWithLid = parseInt(typeName) + 1,
-//     price = document.getElementById("price");
-
-//     if(krishka.checked && typeName !== "") {
-//         price.innerHTML = priceWithLid + " ₽";
-//     } else if(krishka.checked && typeName == "") {
-//         price.innerHTML = "";
-//     } else {
-//         price.innerHTML = typeName + " ₽";
-//     }
-// }
-
-
 function rangeSliderRectangular() {
     let range = document.getElementById("myRange");
     let price = document.getElementById("priceange");
@@ -427,28 +347,28 @@ function rangeSliderSphere() {
     }
 }
 
-function rangeSliderHexagon() {
-    let range = document.getElementById("hexagonRange");
-    let price = document.getElementById("hexagonPriceRange");
-    let krishka = document.getElementById("hexagonLid");
-    let labelForLid = document.getElementById("forHexagonLid");
+// function rangeSliderHexagon() {
+//     let range = document.getElementById("hexagonRange");
+//     let price = document.getElementById("hexagonPriceRange");
+//     let krishka = document.getElementById("hexagonLid");
+//     let labelForLid = document.getElementById("forHexagonLid");
 
-    if(range.value == 1) {
-        krishka.disabled = "disabled";
-        krishka.checked = "checked";
-        labelForLid.innerHTML = `C несъемной крышкой`;
-        price.innerHTML = 10 + ` литров `+ 1230 + ` рублей`;
-    } else if(range.value == 2) {
-        price.innerHTML = 15 + ` литров `+ 1330 + ` рублей`;
-    } else if(range.value == 3) {
-        price.innerHTML = 20 + ` литров `+ 1485 + ` рублей`;
-    } else if(range.value == 4) {
-        price.innerHTML = 30 + ` литров `+ 1640 + ` рублей`;
-    } else if(range.value == 5) {
-        price.innerHTML = 40 + ` литров `+ 1810 + ` рублей`;
-    } else if(range.value == 6) {
-        price.innerHTML = 50 + ` литров `+ 1930 + ` рублей`;
-    } else if(range.value == 7) {
-        price.innerHTML = 60 + ` литров `+ 2310 + ` рублей`;
-    }
-}
+//     if(range.value == 1) {
+//         krishka.disabled = "disabled";
+//         krishka.checked = "checked";
+//         labelForLid.innerHTML = `C несъемной крышкой`;
+//         price.innerHTML = 10 + ` литров `+ 1230 + ` рублей`;
+//     } else if(range.value == 2) {
+//         price.innerHTML = 15 + ` литров `+ 1330 + ` рублей`;
+//     } else if(range.value == 3) {
+//         price.innerHTML = 20 + ` литров `+ 1485 + ` рублей`;
+//     } else if(range.value == 4) {
+//         price.innerHTML = 30 + ` литров `+ 1640 + ` рублей`;
+//     } else if(range.value == 5) {
+//         price.innerHTML = 40 + ` литров `+ 1810 + ` рублей`;
+//     } else if(range.value == 6) {
+//         price.innerHTML = 50 + ` литров `+ 1930 + ` рублей`;
+//     } else if(range.value == 7) {
+//         price.innerHTML = 60 + ` литров `+ 2310 + ` рублей`;
+//     }
+// }
