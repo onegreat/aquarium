@@ -201,6 +201,8 @@ ul {
 .catalog-components-first-container-second-block {
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    height: 250px;
 }
 
 .catalog-components-first-container_element-one {
@@ -217,7 +219,7 @@ ul {
     margin: 25px 35px 14px 35px;
 }
 
-.element-one-description-catalog-description {
+.element-description-catalog-description {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
@@ -278,29 +280,74 @@ ul {
     text-align: center;
 }
 
-.element-two-description-catalog-description {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-}
-
 .flex-container_element-three {
+    display: flex;
     width: 323px;
     height: 250px;
     background: linear-gradient(262.19deg, #EEEEEE 0%, #F7F7F7 100%);
     border-radius: 10px;
     border: none;
+    transition: 0.5s;
+    left: 47px;
+    position: absolute;
+    overflow: hidden;
 }
 
+.flex-container_element-three.active {
+    width: 769px;
+}
+
+.element-three-description {
+    visibility: hidden;
+    margin: 25px 35px 14px 35px;
+    transition: 0.2s;
+}
+
+.element-three-image {
+    margin: 20px 20px 13px 35px;
+}
 
 .flex-container_element-four {
+    display: flex;
     width: 323px;
     height: 250px;
     background: linear-gradient(262.19deg, #EEEEEE 0%, #F7F7F7 100%);
     border-radius: 10px;
     border: none;
+    transition: 0.5s;
+    right: 47px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.flex-container_element-four.active {
+    width: 769px;
+}
+
+.element-four-description {
+    visibility: hidden;
+    margin: 25px 35px 14px 35px;
+    transition: 0.3s;
+}
+
+.element-four-image {
+    margin: 20px 20px 13px 35px;
+}
+
+.catalog-modal-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.modal-content {
+    width: 1200px !important;
+}
+
+.modal-dialog {
+    margin-left: 343px !important;
 }
 
 /* section form */
