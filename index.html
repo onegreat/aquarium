@@ -118,17 +118,31 @@
                                     <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="mdo">Рассчитать цену</button>
                                     <!-- /** modal one **/ -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="container">
                                         <div class="modal-dialog">
                                           <div class="modal-content">
                                             <div class="modal-header"><div class="catalog-modal-title"></div></div>
                                             <div class="modal-body"></div>
                                             <div class="modal-footer">
-                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                              <button type="button" class="btn btn-primary">Отправить сообщение</button>
+                                                <form class="modal-form" action="">
+                                                    <div class="form-container col-md-12">
+                                                      <div class="form-container-content col-md-6">
+                                                        <label for="modal-form__name">
+                                                            <input type="text" name="name" placeholder="Ваше имя" id="name" required>
+                                                        </label>
+                                                        <input type="text" name="name" placeholder="Ваше имя" id="name" required>
+                                                    </label>
+                                                      </div>  
+                                                    </div>
+                                                    
+                                                </form>
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                              
                                             </div>
                                           </div>
                                         </div>
                                       </div>
+                                    </div>
                                     <!-- /** end modal one **/ -->
                                 </div>
                                 <div class="element-one-image">

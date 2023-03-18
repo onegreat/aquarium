@@ -18,3 +18,7 @@
     display: block;
     margin: 0 auto 35px auto;
 }
+
+.modal-dialog {
+    max-width: auto;
+}

@@ -342,13 +342,6 @@ ul {
     line-height: 54px;
 }
 
-.modal-content {
-    width: 1200px !important;
-}
-
-.modal-dialog {
-    margin-left: 343px !important;
-}
 
 /* section form */
 
@@ -411,4 +404,10 @@ ul {
 .form-textarea {
     display: block;
     width: 100%;
+}
+
+/* modal form */
+
+.modal-dialog {
+    max-width: 1116px;
 }
