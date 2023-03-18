@@ -342,6 +342,13 @@ ul {
     line-height: 54px;
 }
 
+.modal-content {
+    width: 1200px !important;
+}
+
+.modal-dialog {
+    margin-left: 343px !important;
+}
 
 /* section form */
 

@@ -347,28 +347,30 @@ function rangeSliderSphere() {
     }
 }
 
-function rangeSliderHexagon() {
-    let range = document.getElementById("hexagonRange");
-    let price = document.getElementById("hexagonPriceRange");
-    let krishka = document.getElementById("hexagonLid");
-    let labelForLid = document.getElementById("forHexagonLid");
+// function rangeSliderHexagon() {
+//     let range = document.getElementById("hexagonRange");
+//     let price = document.getElementById("hexagonPriceRange");
+//     let krishka = document.getElementById("hexagonLid");
+//     let labelForLid = document.getElementById("forHexagonLid");
 
-    if (range.value == 1) {
-        krishka.disabled = "disabled";
-        krishka.checked = "checked";
-        labelForLid.innerHTML = `C несъемной крышкой`;
-        price.innerHTML = 10 + ` литров ` + 1230 + ` рублей`;
-    } else if (range.value == 2) {
-        price.innerHTML = 15 + ` литров ` + 1330 + ` рублей`;
-    } else if (range.value == 3) {
-        price.innerHTML = 20 + ` литров ` + 1485 + ` рублей`;
-    } else if (range.value == 4) {
-        price.innerHTML = 30 + ` литров ` + 1640 + ` рублей`;
-    } else if (range.value == 5) {
-        price.innerHTML = 40 + ` литров ` + 1810 + ` рублей`;
-    } else if (range.value == 6) {
-        price.innerHTML = 50 + ` литров ` + 1930 + ` рублей`;
-    } else if (range.value == 7) {
-        price.innerHTML = 60 + ` литров ` + 2310 + ` рублей`;
-    }
-}
+
+//     if(range.value == 1) {
+//         krishka.disabled = "disabled";
+//         krishka.checked = "checked";
+//         labelForLid.innerHTML = `C несъемной крышкой`;
+//         price.innerHTML = 10 + ` литров `+ 1230 + ` рублей`;
+//     } else if(range.value == 2) {
+//         price.innerHTML = 15 + ` литров `+ 1330 + ` рублей`;
+//     } else if(range.value == 3) {
+//         price.innerHTML = 20 + ` литров `+ 1485 + ` рублей`;
+//     } else if(range.value == 4) {
+//         price.innerHTML = 30 + ` литров `+ 1640 + ` рублей`;
+//     } else if(range.value == 5) {
+//         price.innerHTML = 40 + ` литров `+ 1810 + ` рублей`;
+//     } else if(range.value == 6) {
+//         price.innerHTML = 50 + ` литров `+ 1930 + ` рублей`;
+//     } else if(range.value == 7) {
+//         price.innerHTML = 60 + ` литров `+ 2310 + ` рублей`;
+//     }
+// }
+
