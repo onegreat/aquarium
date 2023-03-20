@@ -23,11 +23,11 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
         <div class="form_radio_group">
         <span class="question-modal">С крышкой и светом?</span>
           <div class="form_radio_group-item">
-          <input id="radio-1" type="radio" name="radio" value="1" checked>
-          <label for="radio-1" class="first-label">Да</label>
+          <input id="radio" type="radio" name="radio" value="1" onclick="rangeSliderTerrarium()" checked>
+          <label for="radio" class="first-label">Да</label>
         </div>
         <div class="form_radio_group-item">
-          <input id="radio-2" type="radio" name="radio" value="2">
+          <input id="radio-2" type="radio" name="radio" value="2" onclick="rangeSliderTerrarium()">
           <label for="radio-2">Нет</label>
         </div>
       </div>
@@ -40,7 +40,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
     modalTitle.innerText = 'Прямоугольные аквариумы';
     modalBody.innerHTML = `<p>Выберите литраж</p>
     <div class="slidecontainer">
-      <input type="range" min="1" max="23" value="1" class="slider" id="myRange" oninput="rangeSliderRectangular()">
+      <input type="range" min="1" max="23" value="1" class="slider" id="myRange" onmousemove="rangeSliderRectangular()">
       <input type="checkbox" id="lid" onclick="rangeSliderRectangular()">
       <label id="forLid" for="lid"></label>
       <div id="priceange"></div>
