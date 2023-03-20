@@ -31,7 +31,6 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
           <label for="radio-2">Нет</label>
         </div>
       </div>
-      // <input type="radio" id="terrariumLid" onclick="rangeSliderTerrarium()">
     </div>
     <div class="col-md-6"><img src="./img/elem2.png"></div>
     </div>`;
