@@ -494,6 +494,20 @@ ul {
     color: #000000;
 }
 
+.terrarium-price-buy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    cursor: pointer;
+}
+
 .form_radio_group {
     display: inline-block;
     overflow: hidden;

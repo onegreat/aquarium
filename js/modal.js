@@ -21,9 +21,9 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
     <div id="terrariumPriceRange" class="terrarium-price"></div>
       <input type="range" min="1" max="10" value="1" class="slider col-md-10" id="terrariumRange" oninput="rangeSliderTerrarium()">
         <div class="form_radio_group">
-        <span class="question-modal">С крышкой?</span>
+        <span class="question-modal">С крышкой и светом?</span>
           <div class="form_radio_group-item">
-          <input id="terrariumLid" type="radio" name="radio" value="1" checked>
+          <input id="radio-1" type="radio" name="radio" value="1" checked>
           <label for="radio-1" class="first-label">Да</label>
         </div>
         <div class="form_radio_group-item">
@@ -31,6 +31,8 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
           <label for="radio-2">Нет</label>
         </div>
       </div>
+      <span class="question-modal">Стоимость:</span>
+      <div id="terrariumPriceRangeBuy" class="terrarium-price-buy"></div>
     </div>
     <div class="col-md-6"><img src="./img/elem2.png"></div>
     </div>`;

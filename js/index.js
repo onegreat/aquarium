@@ -326,23 +326,30 @@ function rangeSliderFigured() {
 function rangeSliderTerrarium() {
     let range = document.getElementById("terrariumRange");
     let price = document.getElementById("terrariumPriceRange");
-    let krishka = document.getElementById("terrariumLid");
+    let priceBuy = document.getElementById("terrariumPriceRangeBuy")
+    let krishka = document.getElementById("radio-1");
+    let noKrishka = document.getElementById("radio-2");
     let labelForLid = document.getElementById("forTerrariumLid");
 
-    //  Расчет 10 литров не рабортает
+
     if (range.value == 1) {
         krishka.disabled = "disabled";
         krishka.checked = "checked";
         // labelForLid.innerHTML = `C крышкой`;
         price.innerHTML = 10 + ` литров `;
+        priceBuy.innerHTML = 2100;
     } else if (range.value == 2) {
         price.innerHTML = 15 + ` литров `;
+        priceBuy.innerHTML = 3100;
     } else if (range.value == 3) {
         price.innerHTML = 20 + ` литров `;
+        priceBuy.innerHTML = 4100;
     } else if (range.value == 4) {
         price.innerHTML = 25 + ` литров `;
+        priceBuy.innerHTML = 5100;
     } else if (range.value == 5) {
         price.innerHTML = 30 + ` литров `;
+        priceBuy.innerHTML = 6100;
     } else if (range.value == 6) {
         price.innerHTML = 35 + ` литров `;
     } else if (range.value == 7) {
