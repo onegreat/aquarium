@@ -1,293 +1,372 @@
 function rangeSliderRectangular() {
     let range = document.getElementById("myRange");
     let price = document.getElementById("priceange");
-    let krishka = document.getElementById("lid");
-    let labelForLid = document.getElementById("forLid");
+    let priceBuy = document.getElementById("rectangular")
+    let krishka = document.getElementById("radio");
 
     if (range.value == 1) {
-        krishka.disabled = "disabled";
-        krishka.checked = "checked";
-        labelForLid.innerHTML = `Крышка несъемная`;
-        price.innerHTML = 5 + ` литров ` + 580 + ` рублей`;
+        price.innerHTML = 5 + ` литров `;
+        priceBuy.innerHTML = 400 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 580 + ` ₽`;
+        }
+
     } else if (range.value == 2) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 8 + ` литров ` + 660 + ` рублей`;
+        price.innerHTML = 8 + ` литров `;
+        priceBuy.innerHTML = 620 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 660 + ` ₽`;
+        }
     } else if (range.value == 3) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 10 + ` литров ` + 756 + ` рублей`;
+        price.innerHTML = 10 + ` литров `;
+        priceBuy.innerHTML = 670 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 760 + ` ₽`;
+        }
     } else if (range.value == 4) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 12 + ` литров ` + 864 + ` рублей`;
+        price.innerHTML = 12 + ` литров `;
+        priceBuy.innerHTML = 700 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 870 + ` ₽`;
+        }
     } else if (range.value == 5) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 15 + ` литров ` + 1012 + ` рублей`;
+        price.innerHTML = 15 + ` литров `;
+        priceBuy.innerHTML = 750 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1010 + ` ₽`;
+        }
     } else if (range.value == 6) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 20 + ` литров ` + 1120 + ` рублей`;
+        price.innerHTML = 20 + ` литров `;
+        priceBuy.innerHTML = 800 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1120 + ` ₽`;
+        }
     } else if (range.value == 7) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 25 + ` литров ` + 1228 + ` рублей`;
+        price.innerHTML = 25 + ` литров `;
+        priceBuy.innerHTML = 850 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1230 + ` ₽`;
+        }
     } else if (range.value == 8) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 30 + ` литров ` + 1350 + ` рублей`;
+        price.innerHTML = 30 + ` литров `;
+        priceBuy.innerHTML = 900 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1350 + ` ₽`;
+        }
     } else if (range.value == 9) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 35 + ` литров ` + 1472 + ` рублей`;
+        price.innerHTML = 35 + ` литров `;
+        priceBuy.innerHTML = 950 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1480 + ` ₽`;
+        }
     } else if (range.value == 10) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 40 + ` литров ` + 1580 + ` рублей`;
+        price.innerHTML = 40 + ` литров `;
+        priceBuy.innerHTML = 1000 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1580 + ` ₽`;
+        }
     } else if (range.value == 11) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 45 + ` литров ` + 1620 + ` рублей`;
+        price.innerHTML = 45 + ` литров `;
+        priceBuy.innerHTML = 1100 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1620 + ` ₽`;
+        }
     } else if (range.value == 12) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 50 + ` литров ` + 1742 + ` рублей`;
+        price.innerHTML = 50 + ` литров `;
+        priceBuy.innerHTML = 1180 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1750 + ` ₽`;
+        }
     } else if (range.value == 13) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 55 + ` литров ` + 1824 + ` рублей`;
+        price.innerHTML = 55 + ` литров `;
+        priceBuy.innerHTML = 1250 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1830 + ` ₽`;
+        }
     } else if (range.value == 14) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 60 + ` литров ` + 1971 + ` рублей`;
+        price.innerHTML = 60 + ` литров `;
+        priceBuy.innerHTML = 1400 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1980 + ` ₽`;
+        }
     } else if (range.value == 15) {
-        krishka.style.display = "initial";
+        price.innerHTML = 72 + ` литров `;
+        priceBuy.innerHTML = 2200 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 72 + ` литров ` + 2052 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 72 + ` литров ` + 4064 + ` рублей`;
+            priceBuy.innerHTML = 3700 + ` ₽`;
         }
-
     } else if (range.value == 16) {
-        krishka.style.display = "initial";
+        price.innerHTML = 80 + ` литров `;
+        priceBuy.innerHTML = 2300 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 80 + ` литров ` + 2270 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 80 + ` литров ` + 4280 + ` рублей`;
+            priceBuy.innerHTML = 3870 + ` ₽`;
         }
-
     } else if (range.value == 17) {
-        krishka.style.display = "initial";
+        price.innerHTML = 100 + ` литров `;
+        priceBuy.innerHTML = 2900 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 100 + ` литров ` + 2835 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 100 + ` литров ` + 4900 + ` рублей`;
+            priceBuy.innerHTML = 4200 + ` ₽`;
         }
-
     } else if (range.value == 18) {
-        krishka.style.display = "initial";
+        price.innerHTML = 120 + ` литров `;
+        priceBuy.innerHTML = 3200 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 120 + ` литров ` + 3405 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 120 + ` литров ` + 5670 + ` рублей`;
+            priceBuy.innerHTML = 4900 + ` ₽`;
         }
-
     } else if (range.value == 19) {
-        krishka.style.display = "initial";
+        price.innerHTML = 137 + ` литров `;
+        priceBuy.innerHTML = 3500 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 137 + ` литров ` + 3888 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 137 + ` литров ` + 6156 + ` рублей`;
+            priceBuy.innerHTML = 5200 + ` ₽`;
         }
-
     } else if (range.value == 20) {
-        krishka.style.display = "initial";
+        price.innerHTML = 160 + ` литров `;
+        priceBuy.innerHTML = 4000 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 160 + ` литров ` + 4536 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 160 + ` литров ` + 7000 + ` рублей`;
+            priceBuy.innerHTML = 5900 + ` ₽`;
         }
-
     } else if (range.value == 21) {
-        krishka.style.display = "initial";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 180 + ` литров ` + 5100 + ` рублей`;
+        price.innerHTML = 180 + ` литров `;
+        priceBuy.innerHTML = 4300 + ` ₽`;
+        krishka.disabled = "";
 
         if (krishka.checked) {
-            price.innerHTML = 180 + ` литров ` + 8200 + ` рублей`;
+            priceBuy.innerHTML = 6700 + ` ₽`;
         }
-
     } else if (range.value == 22) {
-        krishka.style.display = "initial";
+        price.innerHTML = 200 + ` литров `;
+        priceBuy.innerHTML = 4900 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 200 + ` литров ` + 5670 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 200 + ` литров ` + 8870 + ` рублей`;
+            priceBuy.innerHTML = 7100 + ` ₽`;
         }
-
     } else if (range.value == 23) {
-        krishka.style.display = "initial";
+        price.innerHTML = 250 + ` литров `;
+        priceBuy.innerHTML = 5900 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 250 + ` литров ` + 7100 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 250 + ` литров ` + 10300 + ` рублей`;
+            priceBuy.innerHTML = 8650 + ` ₽`;
         }
-
     }
 }
 
 function rangeSliderFigured() {
     let range = document.getElementById("figuredRange");
     let price = document.getElementById("figuredpriceange");
-    let krishka = document.getElementById("figuredLid");
-    let labelForLid = document.getElementById("forFiguredLid");
+    let krishka = document.getElementById("radio");
+    let priceBuy = document.getElementById("figurePriceRangeBuy")
 
     if (range.value == 1) {
-        krishka.disabled = "disabled";
-        krishka.checked = "checked";
-        labelForLid.innerHTML = `Крышка несъемная`;
-        price.innerHTML = 10 + ` литров ` + 1015 + ` рублей`;
+        price.innerHTML = 10 + ` литров `;
+        priceBuy.innerHTML = 700 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1020 + ` ₽`;
+        }
+
     } else if (range.value == 2) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 12 + ` литров ` + 1080 + ` рублей`;
+        price.innerHTML = 12 + ` литров `;
+        priceBuy.innerHTML = 750 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1080 + ` ₽`;
+        }
     } else if (range.value == 3) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 15 + ` литров ` + 1190 + ` рублей`;
+        price.innerHTML = 15 + ` литров `;
+        priceBuy.innerHTML = 800 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1190 + ` ₽`;
+        }
     } else if (range.value == 4) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 20 + ` литров ` + 1260 + ` рублей`;
+        price.innerHTML = 20 + ` литров `;
+        priceBuy.innerHTML = 850 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1260 + ` ₽`;
+        }
     } else if (range.value == 5) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 25 + ` литров ` + 1310 + ` рублей`;
+        price.innerHTML = 25 + ` литров `;
+        priceBuy.innerHTML = 900 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1310 + ` ₽`;
+        }
     } else if (range.value == 6) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 30 + ` литров ` + 1490 + ` рублей`;
+        price.innerHTML = 30 + ` литров `;
+        priceBuy.innerHTML = 1000 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1490 + ` ₽`;
+        }
     } else if (range.value == 7) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 35 + ` литров ` + 1560 + ` рублей`;
+        price.innerHTML = 35 + ` литров `;
+        priceBuy.innerHTML = 1100 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1560 + ` ₽`;
+        }
     } else if (range.value == 8) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 40 + ` литров ` + 1660 + ` рублей`;
+        price.innerHTML = 40 + ` литров `;
+        priceBuy.innerHTML = 1200 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1660 + ` ₽`;
+        }
     } else if (range.value == 9) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 45 + ` литров ` + 1720 + ` рублей`;
+        price.innerHTML = 45 + ` литров `;
+        priceBuy.innerHTML = 1250 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1720 + ` ₽`;
+        }
     } else if (range.value == 10) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 50 + ` литров ` + 1250 + ` рублей`;
+        price.innerHTML = 50 + ` литров `;
+        priceBuy.innerHTML = 1300 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1850 + ` ₽`;
+        }
     } else if (range.value == 11) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 55 + ` литров ` + 1920 + ` рублей`;
+        price.innerHTML = 55 + ` литров `;
+        priceBuy.innerHTML = 1400 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1920 + ` ₽`;
+        }
     } else if (range.value == 12) {
-        labelForLid.innerHTML = `Крышка несъемная`;
-        krishka.disabled = "disabled";
-        price.innerHTML = 60 + ` литров ` + 2140 + ` рублей`;
+        price.innerHTML = 60 + ` литров `;
+        priceBuy.innerHTML = 1600 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2140 + ` ₽`;
+        }
     } else if (range.value == 13) {
-        krishka.style.display = "initial";
+        price.innerHTML = 72 + ` литров `;
+        priceBuy.innerHTML = 2400 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 72 + ` литров ` + 2150 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 72 + ` литров ` + 4360 + ` рублей`;
+            priceBuy.innerHTML = 3900 + ` ₽`;
         }
-
     } else if (range.value == 14) {
-        krishka.style.display = "initial";
+        price.innerHTML = 80 + ` литров `;
+        priceBuy.innerHTML = 2600 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 80 + ` литров ` + 2380 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 80 + ` литров ` + 4590 + ` рублей`;
+            priceBuy.innerHTML = 4000 + ` ₽`;
         }
-
     } else if (range.value == 15) {
-        krishka.style.display = "initial";
+        price.innerHTML = 100 + ` литров `;
+        priceBuy.innerHTML = 2900 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 100 + ` литров ` + 2970 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 100 + ` литров ` + 5240 + ` рублей`;
+            priceBuy.innerHTML = 4450 + ` ₽`;
         }
-
     } else if (range.value == 16) {
-        krishka.style.display = "initial";
+        price.innerHTML = 120 + ` литров `;
+        priceBuy.innerHTML = 3300 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 120 + ` литров ` + 3565 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 120 + ` литров ` + 6035 + ` рублей`;
+            priceBuy.innerHTML = 5050 + ` ₽`;
         }
-
     } else if (range.value == 17) {
-        krishka.style.display = "initial";
+        price.innerHTML = 137 + ` литров `;
+        priceBuy.innerHTML = 3600 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 137 + ` литров ` + 4080 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 137 + ` литров ` + 6050 + ` рублей`;
+            priceBuy.innerHTML = 5450 + ` ₽`;
         }
-
     } else if (range.value == 18) {
-        krishka.style.display = "initial";
+        price.innerHTML = 160 + ` литров `;
+        priceBuy.innerHTML = 4100 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 160 + ` литров ` + 4750 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 160 + ` литров ` + 7400 + ` рублей`;
+            priceBuy.innerHTML = 6200 + ` ₽`;
         }
-
     } else if (range.value == 19) {
-        krishka.style.display = "initial";
+        price.innerHTML = 180 + ` литров `;
+        priceBuy.innerHTML = 4600 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 180 + ` литров ` + 5340 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 180 + ` литров ` + 8640 + ` рублей`;
+            priceBuy.innerHTML = 7000 + ` ₽`;
         }
-
     } else if (range.value == 20) {
-        krishka.style.display = "initial";
+        price.innerHTML = 200 + ` литров `;
+        priceBuy.innerHTML = 5000 + ` ₽`;
         krishka.disabled = "";
-        labelForLid.innerHTML = `Крышка со светом`;
-        price.innerHTML = 200 + ` литров ` + 5940 + ` рублей`;
 
         if (krishka.checked) {
-            price.innerHTML = 200 + ` литров ` + 9345 + ` рублей`;
+            priceBuy.innerHTML = 7800 + ` ₽`;
         }
+    } else if (range.value == 21) {
+        price.innerHTML = 250 + ` литров `;
+        priceBuy.innerHTML = 6400 + ` ₽`;
+        krishka.disabled = "";
 
+        if (krishka.checked) {
+            priceBuy.innerHTML = 8850 + ` ₽`;
+        }
     }
 }
 
@@ -298,81 +377,85 @@ function rangeSliderTerrarium() {
     let krishka = document.getElementById("radio");
 
     if (range.value == 1) {
-        krishka.disabled = "disabled";
-        krishka.checked = "checked";
         price.innerHTML = 10 + ` литров `;
-        priceBuy.innerHTML = 2100;
-    } else if (range.value == 2) {
-        price.innerHTML = 15 + ` литров `;
-        priceBuy.innerHTML = 3100;
+        priceBuy.innerHTML = 320 + ` ₽`;
         krishka.disabled = "";
 
-        if(krishka.checked) {
-            priceBuy.innerHTML = 4064;
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1000 + ` ₽`;
+        }
+
+    } else if (range.value == 2) {
+        price.innerHTML = 15 + ` литров `;
+        priceBuy.innerHTML = 440 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1270 + ` ₽`;
         }
     } else if (range.value == 3) {
         price.innerHTML = 20 + ` литров `;
-        priceBuy.innerHTML = 4100;
+        priceBuy.innerHTML = 490 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 5064;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1370 + ` ₽`;
         }
     } else if (range.value == 4) {
         price.innerHTML = 25 + ` литров `;
-        priceBuy.innerHTML = 5100;
+        priceBuy.innerHTML = 610 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 6064;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1480 + ` ₽`;
         }
     } else if (range.value == 5) {
         price.innerHTML = 30 + ` литров `;
-        priceBuy.innerHTML = 6100;
+        priceBuy.innerHTML = 750 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 7064;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1600 + ` ₽`;
         }
     } else if (range.value == 6) {
         price.innerHTML = 35 + ` литров `;
-        priceBuy.innerHTML = 7100;
+        priceBuy.innerHTML = 840 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 8064;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1720 + ` ₽`;
         }
     } else if (range.value == 7) {
         price.innerHTML = 40 + ` литров `;
-        priceBuy.innerHTML = 8100;
+        priceBuy.innerHTML = 960 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 9064;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1810 + ` ₽`;
         }
     } else if (range.value == 8) {
         price.innerHTML = 45 + ` литров `;
-        priceBuy.innerHTML = 9100;
+        priceBuy.innerHTML = 1050 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 9964;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1870 + ` ₽`;
         }
     } else if (range.value == 9) {
         price.innerHTML = 50 + ` литров `;
-        priceBuy.innerHTML = 89100;
+        priceBuy.innerHTML = 1150 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 10064;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2000 + ` ₽`;
         }
     } else if (range.value == 10) {
         price.innerHTML = 60 + ` литров `;
-        priceBuy.innerHTML = 65100;
+        priceBuy.innerHTML = 1400 + ` ₽`;
         krishka.disabled = "";
-        
-        if(krishka.checked) {
-            priceBuy.innerHTML = 10564;
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2280 + ` ₽`;
         }
     }
 }
@@ -381,23 +464,57 @@ function rangeSliderSphere() {
     let range = document.getElementById("sphereRange");
     let price = document.getElementById("spherePriceRange");
     let krishka = document.getElementById("radio");
-    let labelForLid = document.getElementById("forSphereLid");
+    let priceBuy = document.getElementById("spherePriceRangeBuy")
 
     if (range.value == 1) {
-        krishka.disabled = "disabled";
-        krishka.checked = "checked";
-        labelForLid.innerHTML = `C крышкой`;
-        price.innerHTML = 10 + ` литров ` + 1380 + ` рублей`;
+        price.innerHTML = 10 + ` литров `;
+        priceBuy.innerHTML = 1000 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1400 + ` ₽`;
+        }
+
     } else if (range.value == 2) {
-        price.innerHTML = 20 + ` литров ` + 1730 + ` рублей`;
+        price.innerHTML = 20 + ` литров `;
+        priceBuy.innerHTML = 1400 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 1730 + ` ₽`;
+        }
     } else if (range.value == 3) {
-        price.innerHTML = 30 + ` литров ` + 2025 + ` рублей`;
+        price.innerHTML = 30 + ` литров `;
+        priceBuy.innerHTML = 1600 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2030 + ` ₽`;
+        }
     } else if (range.value == 4) {
-        price.innerHTML = 40 + ` литров ` + 2230 + ` рублей`;
+        price.innerHTML = 40 + ` литров `;
+        priceBuy.innerHTML = 1800 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2230 + ` ₽`;
+        }
     } else if (range.value == 5) {
-        price.innerHTML = 50 + ` литров ` + 2500 + ` рублей`;
+        price.innerHTML = 50 + ` литров `;
+        priceBuy.innerHTML = 2100 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2500 + ` ₽`;
+        }
     } else if (range.value == 6) {
-        price.innerHTML = 60 + ` литров ` + 2830 + ` рублей`;
+        price.innerHTML = 60 + ` литров `;
+        priceBuy.innerHTML = 2420 + ` ₽`;
+        krishka.disabled = "";
+
+        if (krishka.checked) {
+            priceBuy.innerHTML = 2830 + ` ₽`;
+        }
     }
 }
 
