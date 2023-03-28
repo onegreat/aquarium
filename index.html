@@ -53,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <section class="section-hero col-md-12">
-                    <button class="btn btn-hero">Заказать</button>
+                    <a class="btn btn-hero" href="#section-catalog">Заказать</a>
                 </section>
                 <section class="why-us col-md-12">
                     <h2 class="why-us-title">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-catalog col-md-12">
+                <section class="section-catalog col-md-12" id="section-catalog">
                     <h3 class="catalog-title">
                         Наши аквариумы
                     </h3>
@@ -115,17 +115,17 @@
                                         Стандартный аквариум, отлично подойдет для первого опыта
                                     </div>
                                     <div class="element-description-element-price">от 4064 р</div>
-                                    <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="rectangular">Рассчитать цену</button>
+                                    <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="rectangular" onclick="rangeSliderRectangular()">Рассчитать цену</button>
                                     <!-- /** modal one **/ -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                           <div class="modal-content">
-                                            <div class="modal-header"><div class="catalog-modal-title"></div></div>
+                                            <div class="modal-header"><div class="catalog-modal-title"></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button></div>
                                             <div class="modal-body"></div>
                                             <div class="modal-footer">
                                                 <div class="form-container col-md-12 d-flex">
                                                     <form class="col-md-6">
-                                                        <div class="container">
+                                                        <div class="form-container-second-container">
                                                             <h2 class="modal-form-name">Сделать заказ</h2>
                                                             <p class="modal-form-discription">
                                                                 Мы запомнили параметры аквариума и передадим 
@@ -140,16 +140,12 @@
                                                             <label for="">
                                                                 <button class="btn btn-modal-buy">Заказать</button>
                                                             </label>
-                                                            <label for="">
-                                                                <button type="button" class="btn-close" aria-label="Close"></button>
-                                                            </label>
                                                         </div>
                                                     </form>
                                                     <div class="form-container-image col-md-6">
                                                         <img src="./img/form-fish2.png" alt="Красивая рыба" class="form-container-image-png">
                                                     </div>
                                                 </div>
-                                                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button> -->
                                             </div>
                                           </div>
                                         </div>
@@ -173,7 +169,7 @@
                                             Стандартный аквариум, отлично подойдет для первого опыта
                                         </div>
                                         <div class="element-description-element-price">от 4064 р</div>
-                                        <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="figured">Рассчитать цену</button>
+                                        <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="figured" onclick="rangeSliderFigured()">Рассчитать цену</button>
                                     </div>
                                 </div>
                                 <div class="flex-container_element-four col-md-5" id="elem-four">
@@ -188,7 +184,7 @@
                                             Стандартный аквариум, отлично подойдет для первого опыта
                                         </div>
                                         <div class="element-description-element-price">от 4064 р</div>
-                                        <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="sphere">Рассчитать цену</button>
+                                        <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="sphere" onclick="rangeSliderSphere()">Рассчитать цену</button>
                                     </div>
                                 </div>
                             </div>
@@ -206,7 +202,7 @@
                                         Стандартный аквариум, отлично подойдет для первого опыта
                                     </div>
                                     <div class="element-description-element-price">от 4064 р</div>
-                                    <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="terrarium">Рассчитать цену</button>
+                                    <button class="element-description-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="terrarium" onclick="rangeSliderTerrarium()">Рассчитать цену</button>
                                 </div>
                             </div>
                         </div>

@@ -456,7 +456,7 @@ ul {
 }
 
 .modal-container {
-    padding: 2.5%;
+    padding: 1.5%;
 }
 
 .terrariumPriceRange {
@@ -558,4 +558,8 @@ input[type=range]::-webkit-slider-runnable-track {
 .form_radio_group input[type=radio]:disabled {
     background: black;
     color: black;
+}
+
+.form-container-second-container {
+    margin-left: 8px;
 }

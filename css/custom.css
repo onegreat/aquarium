@@ -28,12 +28,25 @@
     margin-bottom: 20px;
 }
 
-.btn-close {
-    position: absolute;
-    top: 11%;
-    right: 5%;
+.modal-header .btn-close {
+    margin-right: 60px;
 }
 
 .modal-body {
     padding: 0;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-content {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 20px;
 }
