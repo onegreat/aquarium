@@ -378,7 +378,7 @@ function rangeSliderTerrarium() {
 
     if (range.value == 1) {
         price.innerHTML = 10 + ` литров `;
-        priceBuy.innerHTML = 320 + ` ₽`;
+        priceBuy.innerHTML = 432 + ` ₽`;
         krishka.disabled = "";
 
         if (krishka.checked) {
@@ -387,7 +387,7 @@ function rangeSliderTerrarium() {
 
     } else if (range.value == 2) {
         price.innerHTML = 15 + ` литров `;
-        priceBuy.innerHTML = 440 + ` ₽`;
+        priceBuy.innerHTML = 486 + ` ₽`;
         krishka.disabled = "";
 
         if (krishka.checked) {
@@ -395,7 +395,7 @@ function rangeSliderTerrarium() {
         }
     } else if (range.value == 3) {
         price.innerHTML = 20 + ` литров `;
-        priceBuy.innerHTML = 490 + ` ₽`;
+        priceBuy.innerHTML = 540 + ` ₽`;
         krishka.disabled = "";
 
         if (krishka.checked) {

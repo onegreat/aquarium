@@ -54,6 +54,7 @@
             <div class="row">
                 <section class="section-hero col-md-12">
                     <button class="btn btn-hero">Заказать</button>
+                    <!-- <a href="https://www.avito.ru/user/d13b531cdc947f03d3b1cc2cac0f5312/profile?src=search_seller_info#rating_and_reviews">Перейти</a> -->
                 </section>
                 <section class="why-us col-md-12">
                     <h2 class="why-us-title">
@@ -120,7 +121,7 @@
                                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                           <div class="modal-content">
-                                            <div class="modal-header"><div class="catalog-modal-title"></div></div>
+                                            <div class="modal-header"><div class="catalog-modal-title"></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button></div>
                                             <div class="modal-body"></div>
                                             <div class="modal-footer">
                                                 <div class="form-container col-md-12 d-flex">
@@ -139,9 +140,6 @@
                                                             </label>
                                                             <label for="">
                                                                 <button class="btn btn-modal-buy">Заказать</button>
-                                                            </label>
-                                                            <label for="">
-                                                                <button type="button" class="btn-close" aria-label="Close"></button>
                                                             </label>
                                                         </div>
                                                     </form>
@@ -214,7 +212,7 @@
                 </section>
                 <section class="section-form col-md-12">
                     <div class="inner-form">
-                        <form class="form col-md-5">
+                        <form id="form-main" action="/apply/" method="POST" class="form col-md-5">
                             <h3 class="form-header">
                                 Связаться с менеджером
                             </h3>
@@ -229,17 +227,17 @@
                               </div>
                               <div class="mb-3">
                                 <label class="col-md-12">
-                                    <input type="tel" class="form-control" id="phone" name="username" placeholder="Номер телефона">
+                                    <input type="tel" class="form-control" id="phone" name="tel" placeholder="Номер телефона">
                                 </label>
                               </div>
                             <div class="mb-3">
                                 <label class="col-md-12">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                                    <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
                                 </label>
                             </div>
                             <div class="mb-3">
                               <label class="col-md-12">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Ваш вопрос"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" name="areaText" rows="8" placeholder="Ваш вопрос"></textarea>
                               </label>
                             </div>
     
@@ -256,6 +254,7 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+<script src="./js/mainForm.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/index.js"></script>
 <script src="./js/modal.js"></script>
