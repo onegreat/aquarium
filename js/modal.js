@@ -12,7 +12,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
 
   let modalTitle = exampleModal.querySelector('.catalog-modal-title')
   let modalBody = exampleModal.querySelector('.modal-body')
-  console.log(modalTitle);
+
   if (recipient == 'terrarium') {
     modalTitle.innerText = 'Террариумы';
     modalBody.innerHTML = `<div class="modal-container col-md-12 d-flex">
