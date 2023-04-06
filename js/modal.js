@@ -34,30 +34,43 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
       <span class="question-modal">Стоимость:</span>
       <div id="terrariumPriceRangeBuy" class="terrarium-price-buy"></div>
     </div>
-    <div class="col-md-6"><img src="./img/elem2.png"></div>
+    <div class="modal-content-img col-md-6"><img src="./img/elem2.png"></div>
     </div>`;
   } else if (recipient == 'rectangular') {
     modalTitle.innerText = 'Прямоугольные аквариумы';
-    modalBody.innerHTML = `<div class="modal-container col-md-12 d-flex">
-    <div class="slidecontainer col-md-6">
-    <p class="modal-litres">Выберите литраж</p>
-    <div id="priceange" class="terrarium-price"></div>
-    <input type="range" min="1" max="23" value="1" class="slider col-md-10" id="myRange" oninput="rangeSliderRectangular()">
+    modalBody.innerHTML = `
+    <div class="modal-container col-md-12 d-flex">
+      <div class="slidecontainer col-md-6">
+        <p class="modal-litres">Выберите литраж</p>
+        <div id="priceange" class="terrarium-price"></div>
+        <input type="range" min="1" max="23" value="1" class="slider col-md-10" id="myRange" oninput="rangeSliderRectangular()">
         <div class="form_radio_group">
-        <span class="question-modal">С крышкой и светом?</span>
+          <span class="question-modal-lid">С крышкой и светом?</span><span class="question-modal-color">Цвет и текстура</span>
           <div class="form_radio_group-item">
-          <input id="radio" type="radio" name="radio" value="1" onclick="rangeSliderRectangular()" checked>
-          <label for="radio" class="first-label">Да</label>
+            <input id="radio" type="radio" name="radio" value="1" onclick="rangeSliderRectangular()" checked>
+            <label for="radio" class="first-label">Да</label>
+          </div>
+          <div class="form_radio_group-item">
+            <input id="radio-2" type="radio" name="radio" value="2" onclick="rangeSliderRectangular()">
+            <label for="radio-2">Нет</label>
+          </div>
+          <div class="form-color-and-texture">
+          <div class="select">
+            <select>
+                <option>sel</option>
+                <option>Hello 1</option>
+                <option>Hello 2</option>
+                <option>Hello 3</option>
+                <option>Hello 4</option>
+            </select>
+            <div class="select_arrow"></div>
+          </div>
+          </div>
         </div>
-        <div class="form_radio_group-item">
-          <input id="radio-2" type="radio" name="radio" value="2" onclick="rangeSliderRectangular()">
-          <label for="radio-2">Нет</label>
-        </div>
+        <span class="question-modal">Стоимость:</span>
+        <div id="rectangular" class="terrarium-price-buy"></div>
       </div>
-      <span class="question-modal">Стоимость:</span>
-      <div id="rectangular" class="terrarium-price-buy"></div>
-    </div>
-    <div class="col-md-6"><img src="./img/elem1.png"></div>
+      <div class="col-md-6 modal-content-img"><img src="./img/elem1.png"></div>
     </div>`;
     // modalBody.innerHTML = `<p>Выберите литраж</p>
     // <div class="slidecontainer">
@@ -88,7 +101,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
       <span class="question-modal">Стоимость:</span>
       <div id="spherePriceRangeBuy" class="terrarium-price-buy"></div>
     </div>
-    <div class="col-md-6"><img src="./img/elem4.png"></div>
+    <div class="col-md-6 modal-content-img"><img src="./img/elem4.png"></div>
     </div>`;
     // modalBody.innerHTML = `
     // <div class="slidecontainer">
@@ -120,7 +133,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
       <span class="question-modal">Стоимость:</span>
       <div id="figurePriceRangeBuy" class="terrarium-price-buy"></div>
     </div>
-    <div class="col-md-6"><img src="./img/elem1.png"></div>
+    <div class="col-md-6 modal-content-img"><img src="./img/elem1.png"></div>
     </div>`;
     // modalBody.innerHTML = `<p>Выберите литраж</p>
     // <div class="slidecontainer">
