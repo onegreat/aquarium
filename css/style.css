@@ -190,6 +190,7 @@ ul {
 }
 
 .catalog-components-first-container {
+    padding-right: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -199,7 +200,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    height: 250px;
+    min-height: 250px;
 }
 
 .catalog-components-first-container_element-one {
@@ -297,46 +298,50 @@ ul {
 
 .flex-container_element-three {
     display: flex;
-    width: 323px;
+    width: 48.5%;
     height: 250px;
     background: linear-gradient(262.19deg, #EEEEEE 0%, #F7F7F7 100%);
     border-radius: 10px;
     border: none;
     transition: 0.5s;
-    left: 47px;
+    padding-left: 3%;
+    left: 0px;
     position: absolute;
     overflow: hidden;
 }
 
 .flex-container_element-three.active {
-    width: 769px;
+    width: 100%;
 }
 
 .element-three-description {
     visibility: hidden;
-    margin: 25px 35px 14px 35px;
+    margin: 25px 35px 14px 55px;
     transition: 0.2s;
 }
 
 .element-three-image {
-    margin: 20px 20px 13px 35px;
+    margin: 20px 45px;
+    /* position: relative;
+    top: 10%;
+    left: 5%; */
 }
 
 .flex-container_element-four {
     display: flex;
-    width: 323px;
+    width: 48.5%;
     height: 250px;
     background: linear-gradient(262.19deg, #EEEEEE 0%, #F7F7F7 100%);
     border-radius: 10px;
     border: none;
     transition: 0.5s;
-    right: 47px;
+    right: 0;
     position: absolute;
     overflow: hidden;
 }
 
 .flex-container_element-four.active {
-    width: 769px;
+    width: 100%;
 }
 
 .element-four-description {
@@ -346,7 +351,7 @@ ul {
 }
 
 .element-four-image {
-    margin: 20px 20px 13px 35px;
+    margin: 20px 20px 13px 80px;
 }
 
 .catalog-modal-title {
