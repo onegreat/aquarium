@@ -218,6 +218,7 @@ ul {
 }
 
 .element-description-catalog-description {
+    margin-top: 14px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
@@ -233,6 +234,10 @@ ul {
     line-height: 41px;
     margin-bottom: 25px;
     margin-top: 4px;
+}
+
+.element-description-element-price-four {
+    margin-top: 14px;
 }
 
 .element-description-button {
@@ -253,6 +258,10 @@ ul {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+}
+
+.element-description-button-four {
+    margin-top: 30px;
 }
 
 .element-description-button:hover {
@@ -285,9 +294,12 @@ ul {
     border: none;
 }
 
-.element-two-image {
-    margin-right: 10px;
-    margin-left: 20px;
+.element-two-image {}
+
+.element-two-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .element-two-description {

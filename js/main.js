@@ -3,10 +3,6 @@ const btnFour = document.getElementById('btn-elem-four')
 let elem3 = document.getElementById('elem-three');
 let elem4 = document.getElementById('elem-four');
 
-btnFour.onclick = function () {
-    console.log('click')
-}
-
 elem3.addEventListener('mouseover', function (event) {
     document.querySelector('.flex-container_element-three').classList.add('active');
     btnThree.style.opacity = 100;
